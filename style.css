@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "corbel";
+  src: URL("/assets/fonts/corbelb.ttf");
+}
+
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-family: corbel;
+  display: flex;
+  justify-content: center;
+}
+
+html {
+    background: url(/assets/images/BG.svg) no-repeat top center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.display {
+  color: #e40046;
+  font-weight: 800;
+  font-size: 2.4rem;
+}
+
+h4 {
+  color: #7b4d35;
+  font-size: 1.4rem;
+  margin: 0.6rem 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 28rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.social-icons {
+  width: 2rem;
+  height: auto;
+  margin-right: 0.4rem;
+}
