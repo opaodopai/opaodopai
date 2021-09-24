@@ -15,7 +15,7 @@ body {
 }
 
 html {
-    background: url(/assets/images/BG.svg) no-repeat top center fixed; 
+    background: url(https://raw.githubusercontent.com/opaodopai/website/87b9a5b80379cc5674a9d61791489799b1e9dd3e/assets/images/BG.svg) no-repeat top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
