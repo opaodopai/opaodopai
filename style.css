@@ -1,6 +1,6 @@
 @font-face {
   font-family: "corbel";
-  src: url("./assets/fonts/corbel.ttf") format("truetype"), url("./assets/fonts/corbelb.ttf") format("truetype");
+  src: url("/assets/fonts/corbel.ttf") format("truetype"), url("/assets/fonts/corbelb.ttf") format("truetype");
 }
 
 html,
@@ -92,7 +92,7 @@ nav a {
 .bgimage {
   width: 100%;
   height: 600px;
-  background: url("./assets/imgs/BANNER.jpg");
+  background: url("/assets/imgs/BANNER.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -169,5 +169,136 @@ nav a {
 
 .servicos .servico-card p {
   text-align: center;
+}
+
+.section-cta-1 {
+  position: relative;
+  padding: 0;
+  margin-bottom: 10rem;
+}
+
+.section-cta-1 .cta-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-cta-1 .cta-1-img {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  left: 0;
+  vertical-align: middle;
+}
+
+.section-cta-1 .cta-1-img img {
+  width: 100%;
+  height: auto;
+}
+
+.section-cta-1 .cta-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #c40044;
+  color: white;
+  text-align: right;
+}
+
+.section-cta-1 .cta-1 h2 {
+  padding: 5rem 0;
+}
+
+.section-cta-1 .cta-1 span {
+  font-size: 3rem;
+}
+
+.section-cta-2 {
+  position: relative;
+  padding: 0;
+}
+
+.section-cta-2 .cta-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-cta-2 .cta-wrapper .content-wrapper {
+  padding: 5rem 0;
+}
+
+.section-cta-2 .cta-wrapper .content-wrapper .ifood {
+  width: 120px;
+  height: auto;
+  padding: 1rem 0;
+}
+
+.section-cta-2 .cta-wrapper .content-wrapper div {
+  padding: 0.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-cta-2 .cta-wrapper .content-wrapper div img {
+  width: 40px;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.section-cta-2 .cta-wrapper .content-wrapper div p {
+  margin: 0;
+}
+
+.section-cta-2 .cta-2-img {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  right: 0;
+  vertical-align: middle;
+}
+
+.section-cta-2 .cta-2-img img {
+  width: 100%;
+  height: auto;
+}
+
+.section-cta-2 .cta-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #513726;
+  color: white;
+}
+
+.section-cta-2 .cta-2 h4 {
+  text-transform: uppercase;
+  font-family: corbel;
+}
+
+.section-cta-2 .cta-2 span {
+  font-weight: 900;
 }
 /*# sourceMappingURL=style.css.map */
