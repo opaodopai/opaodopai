@@ -1,8 +1,4 @@
-@font-face {
-  font-family: "corbel";
-  src: url("./assets/corbel.ttf") format("truetype"), url("./assets/corbelb.ttf") format("truetype");
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 html,
 body {
   -webkit-box-sizing: border-box;
@@ -10,8 +6,8 @@ body {
   padding: 0;
   margin: 0;
   border: 0;
-  color: #7b4d35;
-  font-family: 'corbel', Fallback, sans-serif;
+  color: #513726;
+  font-family: "Open Sans", sans-serif;
 }
 
 html h1,
@@ -22,8 +18,14 @@ body h1,
 body h2,
 body h3,
 body h4 {
-  font-family: 'corbel';
-  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.pao-button {
+  background-color: #c40044;
+  color: white;
+  border: 0;
 }
 
 .flex {
@@ -92,7 +94,7 @@ nav a {
 .bgimage {
   width: 100%;
   height: 600px;
-  background: url("https://raw.githubusercontent.com/opaodopai/opaodopai/main/assets/imgs/BANNER.jpg");
+  background: url("/assets/imgs/BANNER.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -174,7 +176,6 @@ nav a {
 .section-cta-1 {
   position: relative;
   padding: 0;
-  margin-bottom: 10rem;
 }
 
 .section-cta-1 .cta-wrapper {
@@ -220,6 +221,43 @@ nav a {
 
 .section-cta-1 .cta-1 span {
   font-size: 3rem;
+}
+
+.section-form {
+  padding: 7rem 0;
+}
+
+.section-form .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-form .container h5 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-form .container form label {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.section-form .container form input,
+.section-form .container form textarea {
+  background-color: #fdc400;
+  border: 0;
+}
+
+.section-form .container form button {
+  margin-top: 2rem;
 }
 
 .section-cta-2 {
@@ -295,7 +333,7 @@ nav a {
 
 .section-cta-2 .cta-2 h4 {
   text-transform: uppercase;
-  font-family: corbel;
+  font-family: "Open Sans", sans-serif;
 }
 
 .section-cta-2 .cta-2 span {
