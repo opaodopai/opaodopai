@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 html,
 body {
   -webkit-box-sizing: border-box;
@@ -14,12 +14,17 @@ html h1,
 html h2,
 html h3,
 html h4,
+html h5,
+html h6,
 body h1,
 body h2,
 body h3,
-body h4 {
+body h4,
+body h5,
+body h6 {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+  margin: 0;
 }
 
 .pao-button {
@@ -53,6 +58,21 @@ body h4 {
           flex-direction: column;
 }
 
+.wpp-btn {
+  z-index: 100;
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #fff;
+  color: #7b4d35;
+  border-radius: 50px;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+}
+
 nav {
   background-color: #7b4d35 !important;
   position: relative;
@@ -63,6 +83,10 @@ nav a {
   color: white;
 }
 
+nav .left-links a {
+  color: #fdc400;
+}
+
 .logo-img {
   width: 140px;
   height: auto;
@@ -71,6 +95,7 @@ nav a {
   margin: auto;
   left: 0;
   right: 0;
+  z-index: 100;
 }
 
 .nav-img {
@@ -91,10 +116,64 @@ nav a {
   height: auto;
 }
 
+/* hero */
+.maxwidth {
+  max-width: 180px;
+}
+
+.viewheight {
+  height: 65vh;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+a {
+  text-decoration: none;
+}
+
+.slideImg {
+  height: 70vh;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-caption {
+  width: 35%;
+}
+
+.carousel-item .leadTitle {
+  color: #513726;
+  padding-bottom: 1rem;
+}
+
+.carousel-item p {
+  color: #513726;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    width: 65%;
+  }
+  .leadTitle {
+    font-size: 2rem;
+  }
+  .img {
+    -o-object-position: left top;
+       object-position: left top;
+  }
+}
+
+/* hero */
 .bgimage {
   width: 100%;
   height: 600px;
-  background: url('./assets/imgs/BANNER.jpg');
+  background: url("/assets/imgs/BANNER.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -116,6 +195,40 @@ nav a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#produtos {
+  color: #7b4d35;
+}
+
+#produtos h4 {
+  font-weight: 800;
+}
+
+#produtos h5 {
+  font-size: 0.9rem;
+}
+
+#produtos p {
+  font-size: 0.8rem;
+}
+
+.avatar-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #c40044;
+  overflow: hidden;
+  margin-right: 0.5rem;
+}
+
+.avatar-container .avatar {
+  width: 150%;
+  height: auto;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .servicos {
@@ -173,6 +286,12 @@ nav a {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .servicos .divider {
+    display: none;
+  }
+}
+
 .section-cta-1 {
   position: relative;
   padding: 0;
@@ -198,6 +317,12 @@ nav a {
 .section-cta-1 .cta-1-img img {
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 768px) {
+  .section-cta-1 .cta-1-img {
+    display: none;
+  }
 }
 
 .section-cta-1 .cta-1 {
@@ -278,6 +403,10 @@ nav a {
   padding: 5rem 0;
 }
 
+.section-cta-2 .cta-wrapper .content-wrapper h4 {
+  font-weight: 300;
+}
+
 .section-cta-2 .cta-wrapper .content-wrapper .ifood {
   width: 120px;
   height: auto;
@@ -317,6 +446,21 @@ nav a {
   height: auto;
 }
 
+@media (max-width: 768px) {
+  .section-cta-2 .cta-2-img {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    vertical-align: bottom;
+  }
+}
+
+@media (max-width: 425px) {
+  .section-cta-2 .cta-2-img {
+    display: none;
+  }
+}
+
 .section-cta-2 .cta-2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -338,5 +482,38 @@ nav a {
 
 .section-cta-2 .cta-2 span {
   font-weight: 900;
+}
+
+.footer-bg {
+  height: 200px;
+  background-image: url("/assets/imgs/footer-element.png");
+}
+
+footer {
+  background-color: #fdc400;
+}
+
+footer .container {
+  position: relative;
+}
+
+footer .container .footer-logo {
+  top: -130px;
+  left: 0;
+  z-index: 100;
+  position: absolute;
+}
+
+footer .container .footer-logo img {
+  width: 60%;
+  height: auto;
+}
+
+footer .social {
+  color: #c40044;
+}
+
+footer .social a {
+  color: #7b4d35;
 }
 /*# sourceMappingURL=style.css.map */
