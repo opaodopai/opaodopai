@@ -73,18 +73,34 @@ body h6 {
           box-shadow: 2px 2px 3px #999;
 }
 
+@media (max-width: 768px) {
+  .navinha {
+    background-color: #513726 !important;
+    z-index: 1000 !important;
+    padding: 1rem;
+  }
+}
+
 nav {
   background-color: #7b4d35 !important;
   position: relative;
   height: 120px;
 }
 
+nav navbar-nav {
+  z-index: 400;
+}
+
 nav a {
   color: white;
 }
 
-nav .left-links a {
+nav a:hover {
   color: #fdc400;
+}
+
+nav .left-links a:hover {
+  color: white;
 }
 
 .logo-img {

@@ -62,18 +62,35 @@ body {
   box-shadow: 2px 2px 3px #999;
 }
 
+@media (max-width: 768px) {
+  .navinha {
+    background-color: #513726!important;
+    z-index: 1000!important ;
+    padding: 1rem;
+  }
+}
+
 nav {
   background-color: #7b4d35 !important;
   position: relative;
   height: 120px;
 
+
+  navbar-nav {
+    z-index: 400;
+  }
+
   a {
     color: white;
   }
 
+  a:hover {
+    color: $amarelo;
+  }
+
   .left-links {
-    a {
-      color: $amarelo;
+    a:hover {
+      color: white;
     }
   }
 }
@@ -424,7 +441,7 @@ a {
 
 footer {
   background-color: $amarelo;
-  
+
   .container {
     position: relative;
     .footer-logo {
@@ -432,14 +449,13 @@ footer {
       left: 0;
       z-index: 100;
       position: absolute;
-  
+
       img {
         width: 60%;
         height: auto;
       }
     }
   }
-  
 
   .social {
     color: $vermelho;
