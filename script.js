@@ -19,11 +19,6 @@ function toggleSec1() {
     titulo3.classList.remove("selected");
     y.style.display = "none";
     i.style.display = "none";
-  } else {
-    // titulo1.classList.add("unselected");
-    // x.style.display = "none";
-    // y.style.display = "block";
-    // i.style.display = "block";
   }
 }
 
@@ -35,11 +30,6 @@ function toggleSec2() {
     titulo3.classList.remove("selected");
     x.style.display = "none";
     i.style.display = "none";
-  } else {
-    // x.style.display = "block";
-    // y.style.display = "none";
-    // i.style.display = "block";
-    // titulo2.classList.add("unselected");
   }
 }
 
@@ -51,10 +41,5 @@ function toggleSec3() {
     titulo1.classList.remove("selected");
     x.style.display = "none";
     y.style.display = "none";
-  } else {
-    // x.style.display = "block";
-    // y.style.display = "block";
-    // i.style.display = "none";
-    // titulo3.classList.add("unselected");
   }
 }
