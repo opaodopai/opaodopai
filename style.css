@@ -217,6 +217,14 @@ a {
   color: #7b4d35;
 }
 
+#produtos .card {
+  cursor: pointer;
+}
+
+#produtos .card:hover {
+  color: #fdc400;
+}
+
 #produtos h4 {
   font-weight: 800;
 }

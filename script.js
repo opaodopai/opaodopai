@@ -15,8 +15,8 @@ function toggleSec1() {
   if (x.style.display === "none") {
     x.style.display = "block";
     titulo1.classList.add("selected");
-    titulo2.classList.add("unselected");
-    titulo3.classList.add("unselected");
+    titulo2.classList.remove("selected");
+    titulo3.classList.remove("selected");
     y.style.display = "none";
     i.style.display = "none";
   } else {
@@ -31,8 +31,8 @@ function toggleSec2() {
   if (y.style.display === "none") {
     y.style.display = "block";
     titulo2.classList.add("selected");
-    titulo1.classList.add("unselected");
-    titulo3.classList.add("unselected");
+    titulo1.classList.remove("selected");
+    titulo3.classList.remove("selected");
     x.style.display = "none";
     i.style.display = "none";
   } else {
@@ -47,8 +47,8 @@ function toggleSec3() {
   if (i.style.display === "none") {
     i.style.display = "block";
     titulo3.classList.add("selected");
-    titulo1.classList.add("unselected");
-    titulo3.classList.add("unselected");
+    titulo2.classList.remove("selected");
+    titulo1.classList.remove("selected");
     x.style.display = "none";
     y.style.display = "none";
   } else {

@@ -200,6 +200,14 @@ a {
 #produtos {
   color: $primary;
 
+  .card {
+    cursor: pointer;
+  }
+
+  .card:hover {
+    color: #fdc400;
+  }
+
   h4 {
     font-weight: 800;
   }
