@@ -89,10 +89,22 @@ nav {
   }
 
   .left-links {
+
+    display: flex;
+    align-items: center;
+
+    .contato-btn {
+      border: solid 1px $amarelo;
+      border-radius: 3px;
+      padding: 3px 15px!important;
+      margin: 10px;
+    }
+
     a:hover {
       color: white;
     }
   }
+
 }
 
 .logo-img {
@@ -222,7 +234,7 @@ a {
   }
    
   #paes-salgados::-webkit-scrollbar-thumb {
-    background-color: $vermelho;
+    background-color: $laranja;
   }
 
   #paes-doces {
@@ -237,7 +249,7 @@ a {
   }
    
   #paes-doces::-webkit-scrollbar-thumb {
-    background-color: $vermelho;
+    background-color: $laranja;
   }
 
   #outros-sabores {
@@ -252,7 +264,7 @@ a {
   }
    
   #outros-sabores::-webkit-scrollbar-thumb {
-    background-color: $vermelho;
+    background-color: $laranja;
   }
 
   .card:hover {
@@ -269,6 +281,7 @@ a {
 
   p {
     font-size: 0.8rem;
+    font-weight: 400;
   }
 }
 
@@ -293,6 +306,10 @@ a {
 
   .card {
     border: 0;
+
+    p {
+      font-size: 0.7rem;
+    }
 
   }
   .card-shadow:hover {
