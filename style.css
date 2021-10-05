@@ -328,8 +328,13 @@ a {
   border: 0;
 }
 
+#depoimentos .card h6 {
+  font-size: 0.8rem;
+}
+
 #depoimentos .card p {
   font-size: 0.7rem;
+  font-weight: 400;
 }
 
 #depoimentos .card-shadow:hover {
@@ -340,8 +345,8 @@ a {
 }
 
 #depoimentos .avatar-container {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   overflow: hidden;
   margin-right: 0.5rem;
