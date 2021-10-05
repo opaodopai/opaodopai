@@ -27,7 +27,23 @@ body {
   }
 }
 
+text-red {
+  color: $vermelho;
+}
+
 .pao-button {
+  background-color: $vermelho;
+  color: white;
+  border: 0;
+}
+
+.pao-button:hover {
+  background-color: $vermelho;
+  color: white;
+  border: 0;
+}   
+
+.pao-button:focus {
   background-color: $vermelho;
   color: white;
   border: 0;

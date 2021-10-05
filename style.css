@@ -27,7 +27,23 @@ body h6 {
   margin: 0;
 }
 
+text-red {
+  color: #E40046;
+}
+
 .pao-button {
+  background-color: #E40046;
+  color: white;
+  border: 0;
+}
+
+.pao-button:hover {
+  background-color: #E40046;
+  color: white;
+  border: 0;
+}
+
+.pao-button:focus {
   background-color: #E40046;
   color: white;
   border: 0;
