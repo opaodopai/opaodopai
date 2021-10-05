@@ -43,3 +43,17 @@ function toggleSec3() {
     y.style.display = "none";
   }
 }
+
+document.addEventListener( 'DOMContentLoaded', function () {
+	new Splide( '#card-slider', {
+		perPage    : 4,
+		breakpoints: {
+			600: {
+				perPage: 1,
+			},
+      800: {
+        perPage: 2,
+      }
+		}
+	} ).mount();
+} );
