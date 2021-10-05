@@ -43,7 +43,7 @@ text-red {
   border: 0;
 }   
 
-.pao-button:focus {
+.pao-button:focus, .pao-button:active {
   background-color: $vermelho;
   color: white;
   border: 0;
