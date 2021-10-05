@@ -28,23 +28,24 @@ body h6 {
 }
 
 text-red {
-  color: #E40046;
+  color: #e40046;
 }
 
 .pao-button {
-  background-color: #E40046;
+  background-color: #e40046;
   color: white;
   border: 0;
 }
 
 .pao-button:hover {
-  background-color: #E40046;
+  background-color: #e40046;
   color: white;
   border: 0;
 }
 
-.pao-button:focus, .pao-button:active {
-  background-color: #E40046;
+.pao-button:focus,
+.pao-button:active {
+  background-color: #e40046;
   color: white;
   border: 0;
 }
@@ -82,7 +83,7 @@ text-red {
   bottom: 40px;
   right: 40px;
   background-color: #fff;
-  color: #25D366;
+  color: #25d366;
   border-radius: 50px;
   text-align: center;
   -webkit-box-shadow: 2px 2px 3px #999;
@@ -336,7 +337,7 @@ a {
 }
 
 .depos .depomentos-title {
-  color: #E40046;
+  color: #e40046;
 }
 
 .depos .card {
@@ -399,7 +400,7 @@ a {
 }
 
 .servicos a {
-  background-color: #E40046;
+  background-color: #e40046;
   color: white;
 }
 
@@ -480,7 +481,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #E40046;
+  background-color: #e40046;
   color: white;
   text-align: right;
 }
@@ -655,7 +656,7 @@ footer .container .footer-logo img {
 }
 
 footer .social {
-  color: #E40046;
+  color: #e40046;
 }
 
 footer .social a {

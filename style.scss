@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
 $primary: #7b4d35;
-$vermelho: #E40046;
+$vermelho: #e40046;
 $amarelo: #ffb81c;
 $laranja: #e57200;
-$whatsapp: #25D366;
+$whatsapp: #25d366;
 
 html,
 body {
@@ -41,9 +41,10 @@ text-red {
   background-color: $vermelho;
   color: white;
   border: 0;
-}   
+}
 
-.pao-button:focus, .pao-button:active {
+.pao-button:focus,
+.pao-button:active {
   background-color: $vermelho;
   color: white;
   border: 0;
@@ -105,14 +106,13 @@ nav {
   }
 
   .left-links {
-
     display: flex;
     align-items: center;
 
     .contato-btn {
       border: solid 1px $amarelo;
       border-radius: 3px;
-      padding: 3px 15px!important;
+      padding: 3px 15px !important;
       margin: 10px;
     }
 
@@ -120,7 +120,6 @@ nav {
       color: white;
     }
   }
-
 }
 
 .logo-img {
@@ -248,7 +247,7 @@ a {
   #paes-salgados::-webkit-scrollbar {
     width: 6px;
   }
-   
+
   #paes-salgados::-webkit-scrollbar-thumb {
     background-color: $laranja;
   }
@@ -257,13 +256,12 @@ a {
     height: 400px;
     overflow: hidden;
     overflow-y: auto;
-    
   }
 
   #paes-doces::-webkit-scrollbar {
     width: 6px;
   }
-   
+
   #paes-doces::-webkit-scrollbar-thumb {
     background-color: $laranja;
   }
@@ -272,13 +270,12 @@ a {
     height: 400px;
     overflow-x: hidden;
     overflow-y: auto;
-    
   }
 
   #outros-sabores::-webkit-scrollbar {
     width: 6px;
   }
-   
+
   #outros-sabores::-webkit-scrollbar-thumb {
     background-color: $laranja;
   }
@@ -331,10 +328,10 @@ a {
       font-size: 0.7rem;
       font-weight: 400;
     }
-
   }
   .card-shadow:hover {
-    box-shadow: 0 10px 20px rgba(255, 184, 28, 0.19), 0 6px 6px rgba(255, 184, 28, 0.15);
+    box-shadow: 0 10px 20px rgba(255, 184, 28, 0.19),
+      0 6px 6px rgba(255, 184, 28, 0.15);
     border: 0;
     border-radius: 0.3rem;
   }
@@ -345,7 +342,7 @@ a {
     border-radius: 50%;
     overflow: hidden;
     margin-right: 0.5rem;
-  
+
     .avatar {
       width: 150%;
       height: auto;
@@ -354,7 +351,6 @@ a {
     }
   }
 }
-
 
 .servicos {
   margin: 5rem;
