@@ -27,9 +27,26 @@ body {
   }
 }
 
-text-red {
+.text-red {
   color: $vermelho;
 }
+
+.text-amarelo {
+  color: $amarelo;
+}
+
+.text-marrom {
+  color: $primary;
+}
+
+.text-laranja {
+  color: $laranja;
+}
+
+.hover-marrom:hover{
+  color: $primary;
+}
+
 
 .pao-button {
   background-color: $vermelho;
@@ -85,6 +102,12 @@ text-red {
     background-color: $primary !important;
     z-index: 1000 !important ;
     padding: 1rem;
+    width: 100%!important;
+    margin: 0;
+  }
+
+  .nav-link {
+    width: 100%;
   }
 }
 
@@ -120,6 +143,20 @@ nav {
       color: white;
     }
   }
+
+  @media (max-width: 768px) {
+    .left-links {
+      display: flex;
+      align-items: flex-start;
+      padding-bottom: 0.5rem;
+    }
+
+    .contato-btn {
+      margin-left: 0!important;
+    }
+  }
+
+
 }
 
 .logo-img {
